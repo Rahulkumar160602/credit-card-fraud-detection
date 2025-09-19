@@ -15,19 +15,7 @@ This project uses scikit-learn models with a clean, production-ready Django back
 
 ✅ Scalable Deployment – Easily deployable on Render/Heroku with PostgreSQL or SQLite.
 
-📂 Project Structure
-fraud_detection/
-├─ fraud_detection/        # Django project settings
-│  ├─ settings.py
-│  ├─ urls.py
-│  └─ wsgi.py
-├─ detection/              # Core ML app
-│  ├─ models/              # Trained ML models (joblib/pickle)
-│  ├─ views.py             # Prediction logic
-│  └─ templates/           # HTML templates
-├─ manage.py
-├─ requirements.txt
-└─ runtime.txt
+
 
 ⚡ Tech Stack
 Component	Technology
@@ -37,7 +25,7 @@ Database	SQLite (dev) / PostgreSQL (prod)
 Deployment	Render / Heroku / PythonAnywhere
 🧑‍💻 Local Setup
 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/credit-card-fraud-detection.git
+git clone https://github.com/Rahulkumar160602/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
 2️⃣ Create Virtual Environment
